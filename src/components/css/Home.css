@@ -1,0 +1,28 @@
+
+.main-image
+{
+    width: 80%;
+}
+.corusal
+{
+    margin: 5%;
+}
+
+
+.title
+{
+    position: absolute;
+    margin-left:30%;
+    font-size: 8vw;
+    margin-top: 10%;
+    color:white;
+    font-family:Georgia,  serif;
+
+}
+@media screen and ( max-width : 900px )
+{
+    .a
+    {
+        display:none;
+    }
+}

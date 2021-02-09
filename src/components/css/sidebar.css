@@ -1,0 +1,26 @@
+.menu-bars
+{
+    background-color: black;
+    line-height: 2rem;
+    height: 100vh;
+    text-align: left;
+    width: 20vw;
+    position: fixed;
+    padding: 1rem;
+}
+
+.chapter
+{
+    text-decoration: none;
+    color:blanchedalmond
+}
+ul
+{
+    list-style-type:decimal;
+    color: white;
+}
+.chapter:hover
+{
+    color: red;
+}
+

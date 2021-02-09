@@ -1,0 +1,33 @@
+.contact-out
+{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+.contact
+{
+    margin-left: 30vw;
+    margin-right: 30vw;
+    padding: 2vw;
+    margin-top: 10vh;
+    border-radius: 3rem;
+    background-image: url("https://plantesetparfums.files.wordpress.com/2015/09/green-chemistry.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head-form
+{
+    font-size: x-large;
+    font-weight: 700;
+}
+@media screen and (max-width:900px)
+{
+    .contact
+    {
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+}
+
+
+
+

@@ -1,0 +1,37 @@
+.important-outer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 4rem;
+}
+
+table
+{
+    box-shadow: 0px 0px 10px gray;
+    margin: 1rem;
+    height: 25rem;
+}
+th
+{
+    line-height: 3rem;
+}
+tr
+{
+    line-height: 1.5rem;
+}
+
+@media screen and (max-width:1000px)
+{
+    .important-outer
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:500px)
+{
+    .important-outer
+    {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,104 @@
+
+.table1 tr td button,.table2 tr td button
+{
+    width: 4vw;
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, pink 0%, #FFFB7D 100%);
+border: 0;
+border: 2px solid greenyellow;
+}
+.table2 tr td button
+{
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, pink 0%, lightgreen 100%);
+border: 2px solid hotpink;
+width : 5vw;
+}
+
+.table1 tr td button:hover,.table2 tr td button:hover
+{
+    background-image: linear-gradient(45deg, lightyellow 0%, rgb(85, 85, 134) 100%);
+}
+.table1 tr td div,.table2 tr td div
+{
+    font-size: 0.7rem;
+}
+b
+{
+    font-size: 1rem;
+}
+.table2
+{
+
+    margin-left: 10px;
+    height: 10rem;
+    margin-top: 3rem;
+}
+.popover
+{
+    z-index: -1;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: absolute;
+    top : 22vh;
+    left : 18vw;
+    text-decoration: none;
+    min-width: 35vw;
+   padding: 1rem;
+}
+.popouter{
+    background-color: aqua;
+}
+
+.popover-symbol
+{
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+.popover-name
+{
+    font-size: 1rem;
+}
+.outer{
+    width : 90%
+}
+.element-name{
+    text-align: center;
+    width: 1rem;
+}
+@media screen and ( max-width:1200px )
+{
+    .table1 tr td div,.table2 tr td div
+    {
+        font-size: 0.2rem;
+    }
+}
+@media screen and ( max-width:1400px )
+{
+    .table1 tr td div,.table2 tr td div
+    {
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and ( max-width:1170px )
+{
+    .aj
+    {
+        display: none;
+    }
+}
+
+.trend{
+    width:50vw;
+}
+.trend-heading b
+{
+    font-size: 2rem;
+}
+
+.bt:hover
+{
+    opacity: 0.7;
+}

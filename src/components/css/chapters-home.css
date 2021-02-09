@@ -1,0 +1,40 @@
+.outer-chapters
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 1rem;
+}
+.inner-chapters
+{
+    padding:4rem ;
+    background-color: black;
+    margin: 1rem;
+    box-shadow:10px 10px 5px gray;
+}
+.chapter:hover
+{
+    text-decoration: none;
+    color:hotpink;
+    font-size:1.3rem ;
+    cursor: pointer;
+}
+.chapter
+{
+    color:greenyellow;
+    font-size: 1.2rem;
+    font-weight: 650;
+}
+@media screen and ( max-width:900px )
+{
+.outer-chapters
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.inner-chapters
+{
+    padding:2rem ;
+    background-color: black;
+    margin: 1rem;
+}
+}
