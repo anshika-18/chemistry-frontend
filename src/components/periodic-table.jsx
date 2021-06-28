@@ -19,7 +19,7 @@ export default function Periodic()
     }
     Window.onClick=function()
     {
-        if(open==true)
+        if(open===true)
         {
             document.getElementsByClassName("popover")[0].style.zIndex=-1;
             setOpen(false);

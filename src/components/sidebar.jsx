@@ -4,10 +4,10 @@ import { chapters11 } from './data'
 import { Link } from 'react-router-dom'
 
 export default function Sidebar(){
-    console.log("helooooo")
+    //console.log("helooooo")
         return (
             
-            <div className="menu-bars">
+        <div className="menu-bars">
                 <div className="outer-chapters">
                 {chapters11.map(chap=>{
                     return(

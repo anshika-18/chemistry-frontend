@@ -1,10 +1,25 @@
+import { Component } from 'react'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import './css/contact.css'
 
-export default function Contact (){
+class SrollToTopMount extends Component
+{
+    componentDidMount()
+    {
+        window.scrollTo(0,0)
+    }
+    render(){
+        return null
+    }
+}
+
+export default class Contact extends Component{
+   render()
+   {
     return(
       <div className="contact-out">
+        <SrollToTopMount/>
         <div className="contact">
             <Form>
 
@@ -35,4 +50,5 @@ export default function Contact (){
   </div>
   </div>
     )
+   }
 }

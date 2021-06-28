@@ -4,7 +4,7 @@ import { chapters12 } from './data'
 import { Link } from 'react-router-dom'
 
 export default function Sidebar2(){
-    console.log("helooooo")
+    //console.log("helooooo")
         return (
             
             <div className="menu-bars">
