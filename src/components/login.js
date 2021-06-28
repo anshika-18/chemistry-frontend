@@ -25,7 +25,7 @@ export default class login extends Component {
             password:this.state.password
         }
 
-        axios.post('http://localhost:5000/api/auth/login',user)
+        axios.post('https://chemistry-anshika-backend.herokuapp.com/api/auth/login',user)
             .then(user=>{
                 console.log(user.data);
                 

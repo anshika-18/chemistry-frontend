@@ -38,7 +38,7 @@ class App extends Component {
       }
     }
   
-    axios.get('http://localhost:5000/api/auth/getUser',config)
+    axios.get('https://chemistry-anshika-backend.herokuapp.com/api/auth/getUser',config)
          .then(user=>{
             console.log(user)
             
@@ -49,7 +49,7 @@ class App extends Component {
               }
              }
 
-            axios.get('http://localhost:5000/api/result/getscore',confi)
+            axios.get('https://chemistry-anshika-backend.herokuapp.com/api/result/getscore',confi)
                 .then((user)=>{
                     console.log(user.data.marks)
                     this.setState({marks:user.data.marks})
@@ -86,7 +86,7 @@ class App extends Component {
       }
     }
   
-    axios.get('http://localhost:5000/api/auth/getUser',config)
+    axios.get('https://chemistry-anshika-backend.herokuapp.com/api/auth/getUser',config)
          .then(user=>{
             console.log(user)
             
@@ -97,7 +97,7 @@ class App extends Component {
               }
              }
 
-            axios.get('http://localhost:5000/api/result/getscore',confi)
+            axios.get('https://chemistry-anshika-backend.herokuapp.com/api/result/getscore',confi)
                 .then((user)=>{
                     console.log(user.data.marks)
                     this.setState({marks:user.data.marks})

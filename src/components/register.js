@@ -27,7 +27,7 @@ export default class register extends Component {
             password:this.state.password
         }
 
-        axios.post('http://localhost:5000/api/auth/register',user)
+        axios.post('https://chemistry-anshika-backend.herokuapp.com/api/auth/register',user)
             .then(user=>{
                 console.log(user.data)
 

@@ -43,7 +43,7 @@ export default class QuizLayout extends Component {
             //console.log(this.props.passed.email)
             //console.log(this.props.match.params.id.substring(4))
             
-            axios.post('http://localhost:5000/api/result/marks',obj)
+            axios.post('https://chemistry-anshika-backend.herokuapp.com/api/result/marks',obj)
                 .then(user=>{
                     console.log(user)
                     this.props.history.push('/quiz')
